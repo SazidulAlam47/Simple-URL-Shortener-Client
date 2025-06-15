@@ -22,7 +22,12 @@ const App = () => {
                 {showCopy ? <CopyShortUrl /> : <ShortForm />}
                 <div className="mt-4 sm:mt-6 md:mt-8 text-xs text-gray-400 text-center">
                     Find the source code in{" "}
-                    <a className="font-semibold text-indigo-500">GitHub</a>
+                    <a
+                        href="https://github.com/SazidulAlam47/Simple-URL-Shortener-Server"
+                        className="font-semibold text-indigo-500"
+                    >
+                        GitHub
+                    </a>
                 </div>
             </div>
         </div>
