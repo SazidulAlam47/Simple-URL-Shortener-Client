@@ -24,6 +24,7 @@ const App = () => {
                     Find the source code in{" "}
                     <a
                         href="https://github.com/SazidulAlam47/Simple-URL-Shortener-Server"
+                        target="_blank"
                         className="font-semibold text-indigo-500"
                     >
                         GitHub
